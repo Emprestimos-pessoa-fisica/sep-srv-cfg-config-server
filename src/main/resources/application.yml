@@ -1,0 +1,21 @@
+server:
+  port: 6060
+
+spring:
+  application:
+    name: CFG-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Emprestimos-pessoa-fisica/sep-cfg-config
+          search-paths:
+            - '{application}'
+
+# CONFIGURA��ES ACTUATOR
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
