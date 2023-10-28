@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.sep</groupId>
-	<artifactId>config-server</artifactId>
+	<artifactId>svc-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>config-server</name>
 	<description>Servidor de configuração da aplicação</description>
